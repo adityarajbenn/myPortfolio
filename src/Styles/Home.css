@@ -1,0 +1,55 @@
+.mainBioDiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: 50px auto;
+}
+.bioDiv{
+    text-align: left;
+    padding: 0 0 50px 0;
+}
+.bioDiv h1{
+    font-size: 50px;
+    font-weight: 700px;
+}
+.bioDiv button{
+    padding:13px 25px;
+    background-color: #00b8ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.bioDiv button:hover{
+    background-color: white;
+    color: #00b8ff;
+    
+    box-shadow: #00b8ff 0px 5px 15px;
+}
+.bioDiv button i{
+    padding: 0px 5px;
+}
+.linkIcons{
+    display: flex;
+}
+.linkIcons a{
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+}
+.linkIcons a:hover{
+    color: #00b7ff60;
+}
+.bioImageGif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0  0;
+}
+.bioImageGif img{
+    width: 80%;
+    border-radius: 5px;
+}
+
+

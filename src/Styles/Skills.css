@@ -1,0 +1,53 @@
+#skillsHeading{
+    margin: 100px auto;
+}
+
+.divComponents{
+    margin: 100px auto;
+}
+.frontEndSkillsDiv{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 70%;
+    margin: 20px auto;
+}
+
+.divCard{
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    color: black;
+    padding: 20px 5px 0px 0;
+    margin: 20px auto;
+}
+.divCard svg{
+    color: #e84e31;
+}
+.divCard:hover{
+    background-color: #00b8ff;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.divCard .reactImage{
+    color: #5ed3f3;
+}
+.divCard .reduxImage{
+    color: #764cb7;
+}
+.divCard .javaScriptImage{
+    color: #f7df1e;
+}
+.divCard .htmlImage{
+    color: #e96228;
+}
+.divCard .cssImage{
+    color: #254bdd;
+}
+
+
+.toolsSkillsDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    margin: 20px auto;
+}

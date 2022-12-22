@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Project from "./components/Projects";
+import { project } from "./projectData/data";
+import Github from "./components/Github";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <div id="projects">
+        <h1 className="blue">Projects</h1>
+      {project.map((elem) => (
+        <Project
+          name={elem.name}
+          description={elem.description}
+          Tools={elem.Tools}
+          featureOne={elem.featureOne}
+          featureTwo={elem.featureTwo}
+          featureThree={elem.featureThree}
+          featureFour={elem.featureFour}
+          netlify_link={elem.netlify_link}
+          github_link={elem.github_link}
+          gif={elem.gif}
+        />
+      ))}
+      </div>
+      <Github/>
+      <Contact />
     </div>
   );
 }

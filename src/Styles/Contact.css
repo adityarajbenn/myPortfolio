@@ -1,0 +1,10 @@
+.contactIconsDiv a{
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+}
+
+#contactDiv{
+    background-color: black;
+    padding: 10px;
+}

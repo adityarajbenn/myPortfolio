@@ -1,0 +1,15 @@
+.mainAboutDiv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 60%;
+    margin: 50px auto;
+    text-align: justify;
+}
+.mainAboutDiv p{
+    font-size: 20px;
+}
+.profileImage img{
+    width: 300px;
+    border-radius: 5px;
+}

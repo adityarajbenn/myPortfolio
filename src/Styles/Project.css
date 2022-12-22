@@ -1,0 +1,41 @@
+.projectDivs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: white;
+    color: black;
+    padding: 30px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    margin: 50px auto;
+}
+
+.leftPart{
+    text-align: left;
+}
+.projectButtonDiv{
+    display: flex;
+    justify-content: space-around;
+    width: 220px;
+    margin-left: 10px;
+}
+
+.demoButton{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: 3px solid #00b8ff;
+    border-radius: 5px;
+}
+.viewCodeButton{
+    padding: 10px;
+    background-color: #00b8ff;
+    color: white;
+    border-radius: 5px;
+    border: 3px solid #00b8ff;
+    
+}
+.buttonHover:hover{
+    cursor: pointer;
+}
