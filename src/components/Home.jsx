@@ -1,5 +1,6 @@
 import "../Styles/Home.css"
 import pic from "../images/contact.gif"
+import resume from "../images/Resume.pdf"
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
             I am <span className="blue">Aditya</span>
             </h1>
             <h1>Web Developer</h1>
-            <button id="resumeDownloadbtn"><i class="fa-solid fa-download"></i>Resume</button>
+            <a target={'_blank'} href={resume}><button id="resumeDownloadbtn"><i class="fa-solid fa-download"></i>Resume</button></a>
         </div>
         <div className="linkIcons">
             <a
