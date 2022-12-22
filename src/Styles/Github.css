@@ -26,3 +26,23 @@
     border-radius: 5px;
     margin: 10px 10px;
 }
+
+@media screen and (max-width: 600px) {
+    #githubMain{
+        width: 90%;
+        margin: auto;
+    }
+    .githubCalendar{
+        width: 98%;
+        padding: 5px;
+    }
+    
+    img{
+        width: 95%;
+    }
+    .githubStats img{
+        padding: 10px;
+        margin: 0px;
+
+    }
+}

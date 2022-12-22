@@ -14,7 +14,20 @@
     color: white;
     text-decoration: none;
     padding: 0 25px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;  
 }
 .navbar a:hover{
-    color: #00b8ff
+    color: #00b8ff;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+      display: none;
+    }
 }

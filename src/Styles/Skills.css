@@ -51,3 +51,11 @@
     width: 70%;
     margin: 20px auto;
 }
+
+@media screen and (max-width: 600px) {
+    .frontEndSkillsDiv,.toolsSkillsDiv{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+}

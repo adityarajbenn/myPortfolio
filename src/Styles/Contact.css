@@ -8,3 +8,9 @@
     background-color: black;
     padding: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    #contactDiv {
+        width: 100%;
+    }
+  }

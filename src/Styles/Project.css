@@ -39,3 +39,14 @@
 .buttonHover:hover{
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+    .projectDivs{
+        display: block;
+        width: 90%;
+    }
+    .projectDivs div>img{
+        width: 100%;
+        padding: 10px;
+    }
+}

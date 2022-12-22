@@ -13,3 +13,25 @@
     width: 300px;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 600px) {
+    .mainAboutDiv{
+      display: block;
+    }
+    .profileImage>img{
+      width: 70%;
+      padding: 10px;
+      border-radius: 18px;
+      border: 1px solid white;
+    }
+    .profileImage{
+      width: 90%;
+      margin: auto;
+      border-radius: 10px;
+    }
+    .mainAboutDiv{
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
+  }
