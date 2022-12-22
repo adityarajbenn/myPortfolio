@@ -27,7 +27,7 @@
     margin: 10px 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #githubMain{
         width: 90%;
         margin: auto;
