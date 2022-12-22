@@ -52,7 +52,7 @@
     margin: 20px auto;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     .frontEndSkillsDiv,.toolsSkillsDiv{
         grid-template-columns: repeat(2,1fr);
     }

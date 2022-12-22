@@ -53,7 +53,7 @@
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     .bioImageGif>img{
       display: "none"
     }
