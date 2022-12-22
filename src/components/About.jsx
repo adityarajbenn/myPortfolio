@@ -18,7 +18,7 @@ function About() {
             efforts into what I do. I{" "}
             <span className="blue">Aditya Raj Benn</span> aspiring full-stack
             web developer. I like to build websites/application that serves the
-            world. And always want to enhance my knowledge & adpot new
+            world. And always want to enhance my knowledge & adopt new
             technologies that make impact on people.
           </p>
         </div>
