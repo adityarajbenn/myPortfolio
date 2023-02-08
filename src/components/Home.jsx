@@ -12,13 +12,13 @@ function Home() {
             I am <span className="blue">Aditya</span>
             </h1>
             <h1>Web Developer</h1>
-            <a target={'_blank'} rel="noreferrer" href={resume}><button id="resumeDownloadbtn"><i class="fa-solid fa-download"></i>Resume</button></a>
+            <a target={'_blank'} rel="noreferrer" href={resume}><button id="resumeDownloadbtn"><i className="fa-solid fa-download"></i>Resume</button></a>
         </div>
         <div className="linkIcons">
             <a
             rel="noreferrer"
             href="https://www.linkedin.com/in/aditya-raj-benn-86b507148/"
-            class="jss4"
+            className="jss4"
             target="_blank"
             >
             <svg
@@ -26,7 +26,7 @@ function Home() {
                 fill="currentColor"
                 stroke-width="0"
                 viewBox="0 0 1024 1024"
-                class="HeroSection_linkedInIcon__JVjey"
+                className="HeroSection_linkedInIcon__JVjey"
                 height="1em"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,15 +37,15 @@ function Home() {
             <a
             rel="noreferrer"
             href="https://github.com/adityarajbenn"
-            class="jss4"
+            className="jss4"
             target="_blank"
             >
             <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 1024 1024"
-                class="HeroSection_gitIcon__8YmT0"
+                className="HeroSection_gitIcon__8YmT0"
                 height="1em"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ function Home() {
                 fill="currentColor"
                 stroke-width="0"
                 viewBox="0 0 1024 1024"
-                class="HeroSection_gitIcon__8YmT0"
+                className="HeroSection_gitIcon__8YmT0"
                 height="1em"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"

@@ -13,9 +13,9 @@ function Github() {
             <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 1024 1024"
-                class="HeroSection_gitIcon__8YmT0"
+                className="HeroSection_gitIcon__8YmT0"
                 height="1em"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
