@@ -21,8 +21,8 @@ function Project({name,description,Tools,featureOne,featureTwo,featureThree,feat
                 </ul>
             </div>
             <div className="projectButtonDiv">
-                <a href={netlify_link} target="_blank"><button className="demoButton buttonHover" >DEMO</button></a>
-                <a href={github_link} target="_blank"><button className="viewCodeButton buttonHover">VIEW CODE</button></a>
+                <a href={netlify_link} target="_blank" rel="noreferrer"><button className="demoButton buttonHover" >DEMO</button></a>
+                <a href={github_link} target="_blank" rel="noreferrer"><button className="viewCodeButton buttonHover">VIEW CODE</button></a>
             </div>
         </div>
         <div>

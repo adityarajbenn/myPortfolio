@@ -12,7 +12,7 @@ function Home() {
             I am <span className="blue">Aditya</span>
             </h1>
             <h1>Web Developer</h1>
-            <a target={'_blank'} href={resume}><button id="resumeDownloadbtn"><i class="fa-solid fa-download"></i>Resume</button></a>
+            <a target={'_blank'} rel="noreferrer" href={resume}><button id="resumeDownloadbtn"><i class="fa-solid fa-download"></i>Resume</button></a>
         </div>
         <div className="linkIcons">
             <a
@@ -70,7 +70,7 @@ function Home() {
         </div>
         </div>
         <div className="bioImageGif">
-            <img src={pic} alt="gif-image" />
+            <img src={pic} alt="gif" />
         </div >
     </div>
   );
