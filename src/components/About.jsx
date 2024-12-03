@@ -14,12 +14,7 @@ function About() {
         <div>
           <p>Hi there,</p>
           <p>
-            My desire to earn a better life motivated me to put my utmost
-            efforts into what I do. I{" "}
-            <span className="blue">Aditya Raj Benn</span> aspiring full-stack
-            web developer. I like to build websites/application that serves the
-            world. And always want to enhance my knowledge & adopt new
-            technologies that make impact on people.
+          A passionate and skilled Web Developer with 1 year and 7 months of professional experience in building dynamic, responsive web applications. Proficient in frontend technologies, including React, JavaScript, antd and MUI, with a solid understanding of UI/UX principles. Strong communicator and quick learner, known for effectively collaborating with teams to deliver high-quality projects.
           </p>
         </div>
       </div>
